@@ -5,7 +5,7 @@ threes = 0
 fours = 0 
 fives = 0 
 sixes = 0 
-for rolls in range (100):
+for rolls in range (101):
     dice = random.randint(1,6)
     if (dice == 1): 
         ones +=1

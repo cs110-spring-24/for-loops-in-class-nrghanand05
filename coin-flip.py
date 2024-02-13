@@ -2,7 +2,7 @@ import random
 # Let's simulate flipping 100 coins and output the results. 
 heads = 0 
 tails = 0 
-for flip in range(100): # range (0,100,1) # range(0,100)
+for flip in range(101): # range (0,100,1) # range(0,100)
     coin = random.randint(1,2)
     if (coin == 1):
         print ("heads")

@@ -13,6 +13,3 @@ for count in range (1,31):
     else:
         print (count)
 
-
-
-
